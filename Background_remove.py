@@ -1,3 +1,5 @@
+# Background remove
+
 import streamlit as st
 from PIL import Image
 from rembg import remove
@@ -25,6 +27,7 @@ def main():
 
     if file is not None:
         remove_background(file)
+
 
 if __name__ == '__main__':
     main()
